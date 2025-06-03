@@ -40,7 +40,7 @@ def check_order(first, second):
     return True
 
 str1 = "sddhncksdlliivvsdyyssaa"
-str2 = ("sddcsiivya")
+str2 = "sddcsiivya"
 print(check_order(str1,str2))
 
 
