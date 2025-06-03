@@ -12,6 +12,9 @@ def check_order(first_string, second_string):
     for key in char_skip_count:
         char_skip_count[key] = 0
     for char in list(second_string):
+        if char not in list(first_string):
+            return False
+    for char in list(second_string):
         for i in range(len(first_string)):
             # print(char, first_string[i])
             if char == first_string[i]:
