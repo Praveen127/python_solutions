@@ -38,19 +38,8 @@ def check_order(first, second):
         previous = i
 
     return True
-
-str1 = "sddhncksdlliivvsdyyssaa"
-str2 = "sddcsiivya"
-print(check_order(str1,str2))
-
-
-
-
-
-
-
-
-
-
-
-
+    
+if __name__ == "__main__":
+    str1 = "sddhncksdlliivvsdyyssaa"
+    str2 = "sddcsiivya"
+    print(check_order(str1,str2))
